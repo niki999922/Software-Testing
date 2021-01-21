@@ -1,5 +1,5 @@
 # Tasks
-## Тестирование Frontend
+## 1. Тестирование Frontend
 ### Main часть:
 
 - [ ] GitHub репозиторий, с папкой client
@@ -10,6 +10,7 @@
 - [ ] unit тесты
 - [ ] component тесты
 - [ ] e2e тесты
+
 тесты в минимальном количестве 1шт каждый
 
 ### Advanced часть:
@@ -24,10 +25,11 @@
 - [ ] заметка с основными отличиями
 - [ ] заметка размещена на GitHub pages
 
-## Тестирование Frontend: e2e тестирование
+## 2. Тестирование Frontend: e2e тестирование
 ### Main часть:
 - [ ] тесты на Playwright
 - [ ] тесты на Cypress
+
 Необходимо написать не менее 5 тестов на каждом из фреймворков
 
 ### Advanced часть:
@@ -37,7 +39,7 @@
 - [ ] скриншот-тестирование и запись видео
 - [ ] статья в блог
 
-## Backend. Unit testing. Component testing
+## 3. Backend. Unit testing. Component testing
 ### Main часть:
 - [ ] сервер Kotlin, Spring boot, DB
 - [ ] больше 1 контроллерa
@@ -57,7 +59,7 @@
 - [ ] функциональность с Kafka/RabbitMQ streams
 - [ ] компонентные тесты на эту функциональность
 
-## CI/CD. GitHub actions. Azure
+## 4. CI/CD. GitHub actions. Azure
 ### Main часть:
 - [ ] GitHub action для запуска тестов на UI и Backend по пушу из master в ветку
 
@@ -67,11 +69,11 @@
 ### Bonus часть:
 - [ ] Kubernetes в Azure/Яндекс Облаке для разворачивания среды
 
-## Reporting. BDD
+## 5. Reporting. BDD
 ### Bonus часть:
 - [ ]  прикрутить Allure reporting для написанных тестов
 
-## Contract tests. Pact. Spring cloud contract
+## 5. Contract tests. Pact. Spring cloud contract
 ### Bonus часть:
 - [ ]  Pact-тесты к сервису.
 
@@ -81,7 +83,7 @@
 - [ ]  пофиксить проблемы
 - [ ]  сделать автоматический тест с axe
 
-## Selenium. Selenide. Selenoid
+## 5. Selenium. Selenide. Selenoid
 ### Main часть:
 - [ ] e2e тесты, используя Selenide
 
@@ -92,7 +94,7 @@
 - [ ] настроить генерацию отчетов с Allure report, сделав полный сетап в GitHub: e2e тесты с selenide запускаются с использованием Selenoid на разных окружениях(браузерах) параллельно и собирают отчет с помощью Allure Report
 - [ ] написать статью про сетап
 
-## Performance testing
+## 6. Performance testing
 ### Main часть:
 - [ ] пройти воркшоп и выложить результаты
 
