@@ -1,0 +1,57 @@
+.formaR {
+    text-align:center;
+    width: 20%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    padding: 20px;
+    background: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: auto;
+    padding: 0 10px;
+
+    vertical-align: center;
+}
+
+.form-element input {
+    flex-grow: 1;
+    width: auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.form-element input:focus {
+    outline: none;
+}
+
+.form-element div {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.submit-style input {
+    margin-top: 40px;
+    width: 50%;
+    height: 70px;
+    font-size: 40px;
+    outline: none;
+}
