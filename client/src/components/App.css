@@ -1,0 +1,5 @@
+.background {
+    background-image: url('./../resources/img/kitties-background.jpg');
+    background-repeat: repeat;
+    min-height: calc(100vh);
+}

@@ -1,0 +1,31 @@
+.header-window {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    background: black;
+    /*opacity: .8;*/
+    height: 100%;
+}
+
+.link {
+    width: 20%;
+    height: auto;
+    background: lightgrey;
+    border: #61dafb;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.link-text {
+    vertical-align:middle;
+    text-decoration: none;
+    text-align:center;
+    color: black;
+    font-size: 50px;
+}
+
+.link:hover {
+    background: gold;
+}

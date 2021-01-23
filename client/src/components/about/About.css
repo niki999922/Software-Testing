@@ -1,0 +1,27 @@
+.about {
+    vertical-align:middle;
+    text-align:center;
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 60px;
+    background: white;
+}
+
+.home-p-h {
+    font-size: 38px;
+}
+
+.home-p-l {
+    font-size: 40px;
+}
