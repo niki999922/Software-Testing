@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="server-spring" />
+        <module name="selenium" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="selenium" target="11" />
       <module name="server-spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
