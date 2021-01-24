@@ -32,7 +32,7 @@ public class UserJdbcDaoTest{
     }
 
 
-    @Test
+//    @Test
     public void addUserTest() {
         String login = "test";
         User user = new User(login, login);
