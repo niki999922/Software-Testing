@@ -38,7 +38,7 @@ public class UserJdbcDaoTest{
         User user = new User(login, login);
         userDao.addUser(user);
 
-        List<User> result = userDao.getUser("tester");
+        List<User> result = userDao.getUser("test");
 
         assertEquals(1, result.size());
         assertEquals("test", result.get(0).getLogin());
