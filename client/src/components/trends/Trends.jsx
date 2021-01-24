@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Trends.css"
 
-function trendsCount(trends) {
+export function trendsCount(trends) {
     if (trends === null || trends === undefined) {
         return null;
     }

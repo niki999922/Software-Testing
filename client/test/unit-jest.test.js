@@ -1,17 +1,31 @@
 import React from "react";
-import About from "../src/components/about/About";
-import TestRenderer from "react-test-renderer";
+import {trendsCount} from "../src/components/trends/Trends"
 
-describe('Component tests jest', () => {
-    it('Render home page text', () => {
-        const testRender = TestRenderer.create(<About />);
+describe('Unit tests jest', () => {
+    it('Count trends on null', () => {
+        expect(trendsCount(null)).toBe(null)
+    });
 
-        const testInstance = testRender.root;
-        const paragraphs = testInstance.findByType('div');
-        const paragraphs1 = paragraphs.props.children[0].props.children;
-        const paragraphs2 = paragraphs.props.children[1].props.children;
+    it('Count trends on undefined', () => {
+        expect(trendsCount(undefined)).toBe(null)
+    });
 
-        expect(paragraphs1.substring(0, 40)).toEqual('This page was developed by a novice fron');
-        expect(paragraphs2).toEqual('But behold this creation');
+    it('Count trends on real list', () => {
+        const trends = {trends: [
+            {
+                name: "Три полоски",
+                description: "Песня из 2007 о полосках? просто девушка в парке Победы"
+            }, {
+                name: "Чувства",
+                description: "Очень чувственная песня, из 2018"
+            }, {
+                name: "Дыши",
+                description: "Ночь, фонарик, конечно аптека"
+            }, {
+                name: "Этажи",
+                description: "Как порой сложно подниматься наверх"
+            }
+        ]}
+        expect(trendsCount(trends.trends)).toBe(4)
     });
 });
