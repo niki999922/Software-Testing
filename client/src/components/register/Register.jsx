@@ -10,7 +10,6 @@ class Register extends React.Component {
     registerUser() {
         let login = document.getElementById('login').value
         let password = document.getElementById('password').value
-        alert(JSON.stringify({login: login, password: password}))
 
         fetch("http://localhost:8080/login-register/register", {
             method: "POST",
@@ -21,17 +20,13 @@ class Register extends React.Component {
         })
             .then(res => res.json())
             .then(result => {
-                alert("22 " + result.body)
                 if (result.body === "OK") {
                     window.location.replace("http://localhost:3000/");
-                    alert("33")
                 } else {
-                    alert("55")
                     alert(result.body)
                 }
             })
             .catch(error => {
-                alert("44")
                 console.log("ERROR");
                 console.log(error.toString());
             })
