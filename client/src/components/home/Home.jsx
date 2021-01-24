@@ -11,7 +11,7 @@ class Home extends React.Component {
 
         return (
             <div className="home">
-                <div className="home-p-h">Welcome to homepage, {user !== undefined && user !== null ? user: ""}</div>
+                <div className="home-p-h" id="helloText">Welcome to homepage, {user !== undefined && user !== null ? user: ""}</div>
                 <div className="home-p-m">In this site you can get all actual trends in the world!!!</div>
                 <div className="home-p-k">Enjoy!!!</div>
             </div>

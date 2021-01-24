@@ -22,7 +22,7 @@ class Header extends React.Component {
                     <Link to={'/'} id="homeL" className="link link-text">Home</Link>
                     <Link to={'/trends'} id="trendsL" className="link link-text">Trends</Link>
                     <Link to={'/about'} id="aboutL" className="link link-text">About</Link>
-                    <div onClick={this.handleLogout} className="link link-text">Logout</div>
+                    <div onClick={this.handleLogout} id="logoutL" className="link link-text">Logout</div>
                 </div>
             );
         } else {
