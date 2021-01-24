@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-//@RunWith(SpringJUnit4ClassRunner.class)
+@RunWith(SpringJUnit4ClassRunner.class)
 public class UserJdbcDaoTest{
     private final UserJdbcDao userDao = new UserJdbcDao(dataSource());
 
@@ -32,7 +32,7 @@ public class UserJdbcDaoTest{
     }
 
 
-//    @Test
+    @Test
     public void addUserTest() {
         String login = "test";
         User user = new User(login, login);

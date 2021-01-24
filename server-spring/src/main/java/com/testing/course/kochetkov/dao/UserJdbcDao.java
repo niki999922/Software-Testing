@@ -12,7 +12,7 @@ public class UserJdbcDao extends JdbcDaoSupport implements UserDao {
     public UserJdbcDao(DataSource dataSource) {
         super();
         setDataSource(dataSource);
-        String createUsersTableSql = "create table if not exists Users (login varchar(100) not null primary key, password varchar(100) not null);";
+        String createUsersTableSql = "CREATE TABLE IF NOT EXISTS Users (login VARCHAR(100) not null primary key, password VARCHAR(100) not null);";
         getJdbcTemplate().execute(createUsersTableSql);
     }
 
@@ -20,14 +20,14 @@ public class UserJdbcDao extends JdbcDaoSupport implements UserDao {
     public void addUser(User user) {
         System.out.println(user.getLogin());
         System.out.println(user.getPassword());
-        String sql = MessageFormat.format("insert into users (login, password) values (''{0}'', ''{1}'');", user.getLogin(), user.getPassword());
+        String sql = MessageFormat.format("INSERT INTO Users (login, password) VALUES (''{0}'', ''{1}'');", user.getLogin(), user.getPassword());
         getJdbcTemplate().execute(sql);
     }
 
     @Override
     public List<User> getUser(String login) {
         System.out.println(login);
-        String sql = MessageFormat.format("select * from users where users.login=''{0}'';", login);
+        String sql = MessageFormat.format("SELECT * FROM Users WHERE users.login=''{0}'';", login);
         return getJdbcTemplate().query(sql, new BeanPropertyRowMapper(User.class));
     }
 }
