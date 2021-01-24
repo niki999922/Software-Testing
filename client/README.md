@@ -11,9 +11,10 @@ Available tests:
 * `react-scripts test`
 * `jest test`
 * `jest --coverage`
-* 3
+* `mocha "test/**/*-mocha.test.js"`
 * 4
 * 5
+
 
 ```shell
 yarn test
@@ -24,3 +25,10 @@ Build Application for deploying
 ```shell
 yarn build
 ```
+
+
+## Run all tests
+```shell
+./runTests.sh
+```
+
