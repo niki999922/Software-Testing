@@ -63,4 +63,28 @@ context('e2e test with cypress', () => {
 
         cy.visit('http://localhost:3000/logout');
     });
+
+    it(`Test failed authorization`, () => {
+        let randomString = (length) => {
+            let result = '';
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            const charactersLength = characters.length;
+            for (let i = 0; i < length; i++) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+        }
+
+        let login = randomString(7) + "@yandex.ru";
+        let password = randomString(7);
+
+        cy.visit('http://localhost:3000/login');
+        cy.wait(100);
+        cy.get('#login').type(login);
+        cy.wait(200);
+        cy.get('#password').type(password);
+        cy.wait(200);
+        cy.get('#submit-log').click();
+        cy.get('#submit-log').should('have.value', 'Login' );
+    })
 })
