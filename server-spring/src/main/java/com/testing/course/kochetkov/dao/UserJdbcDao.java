@@ -27,7 +27,7 @@ public class UserJdbcDao extends JdbcDaoSupport implements UserDao {
     @Override
     public List<User> getUser(String login) {
         System.out.println(login);
-        String sql = MessageFormat.format("SELECT * FROM Users WHERE users.login=''{0}'';", login);
+        String sql = MessageFormat.format("SELECT * FROM Users WHERE Users.login = ''{0}'';", login);
         return getJdbcTemplate().query(sql, new BeanPropertyRowMapper(User.class));
     }
 }
