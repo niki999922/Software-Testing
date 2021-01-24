@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../src/components/about/About";
+import About from "../../src/components/about/About";
 import TestRenderer from "react-test-renderer";
 
 describe('Component tests jest', () => {

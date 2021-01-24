@@ -1,7 +1,7 @@
 module.exports = {
     testEnvironment: 'node',
     collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}'],
-    testMatch: ['**/test/?(*.)*-jest\\.(spec|test).[jt]s?(x)'],
+    testMatch: ['**/test/**/?(*.)*(spec|test).[jt]s?(x)'],
     moduleNameMapper: {
         "\\.(css|sass)$": "identity-obj-proxy",
     }

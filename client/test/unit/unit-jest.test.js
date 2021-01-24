@@ -1,5 +1,5 @@
 import React from "react";
-import {trendsCount} from "../src/components/trends/Trends"
+import {trendsCount} from "../../src/components/trends/Trends"
 
 describe('Unit tests jest', () => {
     it('Count trends on null', () => {
