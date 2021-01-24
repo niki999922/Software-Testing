@@ -24,7 +24,7 @@
     "test-react-scripts": "react-scripts test",
     "test-mocha": "mocha \"test/**/*-mocha.test.js\"",
     "test": "jest -- test/unit/unit-jest.test.js test/component/component-jest.test.js",
-    "test-playwright": "jest --detectOpenHandles -- test/e2e/e2e-playwright.test.js",
+    "test-playwright": "jest -- test/e2e/e2e-playwright.test.js",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "cypress:open": "cypress open",
