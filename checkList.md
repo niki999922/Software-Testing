@@ -41,19 +41,18 @@
 
 ## 3. Backend. Unit testing. Component testing
 ### Main часть:
-- [ ] сервер Kotlin, Spring boot, DB
-- [ ] больше 1 контроллерa
-- [ ] unit тесты
-- [ ] component тесты
-- [ ] TestContainers для теста с DB
-- [ ] Mockito
-- [ ] README про ненаписанные тесты
+- [x] сервер Kotlin, Spring boot, DB
+- [x] больше 1 контроллерa
+- [x] unit тесты
+- [x] component тесты
+- [x] TestContainers для теста с DB
+- [x] Mockito
 
 ### Advanced часть:
-- [ ] взаимодействие сервиса и Frontend приложения
+- [x] взаимодействие сервиса и Frontend приложения
 - [ ] тесты на авторизацию
 - [ ] Spring Test Configuration, которые можно переключать при помощи флага при запуске тестов
-- [ ] генерация тестовой документации через Asci Doctor(Spring Rest Docs)
+- [x] генерация тестовой документации через Asci Doctor(Spring Rest Docs)
 
 ### Bonus часть:
 - [ ] функциональность с Kafka/RabbitMQ streams
@@ -61,7 +60,7 @@
 
 ## 4. CI/CD. GitHub actions. Azure
 ### Main часть:
-- [ ] GitHub action для запуска тестов на UI и Backend по пушу из master в ветку
+- [x] GitHub action для запуска тестов на UI и Backend по пушу из master в ветку
 
 ### Advanced часть:
 - [ ] GitHub action для деплоя приложения UI+BE на Azure/Vercel/Яндекс Облако
