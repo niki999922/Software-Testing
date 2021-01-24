@@ -8,10 +8,12 @@ yarn start
 
 Run all tests:
 Available tests:
-* `react-scripts` test
-* 1
-* 2
+* `react-scripts test`
+* `jest test`
+* `jest --coverage`
 * 3
+* 4
+* 5
 
 ```shell
 yarn test
