@@ -49,7 +49,7 @@ class Register extends React.Component {
                         <input type="date" name="bday" id="bday"/>
                     </label>
                     <div className="submit-style">
-                        <input type="submit" value="Register"/>
+                        <input type="submit" id="submit-reg" value="Register"/>
                     </div>
                 </form>
             </div>

@@ -28,7 +28,7 @@ describe(`Playwright tests`, () => {
     });
 
     afterEach(async () => {
-        await page.close();
+        await browser.close();
         // currentPage = null;
     });
 

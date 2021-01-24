@@ -48,7 +48,7 @@ class Login extends React.Component {
                         <input type="password" id="password" required/>
                     </label>
                     <div className="submit-style">
-                        <input type="submit" value="Login"/>
+                        <input type="submit" id="submit-log" value="Login"/>
                     </div>
                 </form>
             </div>
