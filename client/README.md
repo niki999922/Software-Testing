@@ -6,8 +6,17 @@ Runs the app in the development mode.\
 yarn start
 ```
 
-Run all tests:
-Available tests:
+## Run all tests:
+
+#### Before tests have to start server on express
+
+```shell
+npm start
+cd ../server/
+npm start
+```
+
+### Available tests:
 
 ```shell
 npm run test-react-scripts
