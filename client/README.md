@@ -25,10 +25,3 @@ Build Application for deploying
 ```shell
 yarn build
 ```
-
-
-## Run all tests
-```shell
-./runTests.sh
-```
-
