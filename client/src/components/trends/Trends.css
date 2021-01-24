@@ -1,0 +1,60 @@
+.trends-default__height {
+    height: 150px;
+}
+
+.trends-list__height {
+    height: auto;
+}
+
+.trends {
+    vertical-align:middle;
+    text-align:center;
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 60px;
+    background: white;
+}
+
+.home-p-h {
+    font-size: 38px;
+}
+
+.home-p-l {
+    font-size: 40px;
+}
+
+
+.list-style {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.list-style p {
+    margin: 0;
+}
+
+.list-style-title {
+    color: #ff00de;
+    text-decoration: underline;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.list-style-description {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
