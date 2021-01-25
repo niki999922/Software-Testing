@@ -1,3 +1,31 @@
 version: 1.0
 profile:
   name: All
+exclude:
+  - name: KotlinLoggerInitializedWithForeignClass
+  - name: CssConvertColorToHexInspection
+  - name: CssConvertColorToRgbInspection
+  - name: SingleClassImport
+  - name: AutoUnboxing
+  - name: ForeachStatement
+  - name: ForwardCompatibility
+  - name: AnnotationClass
+  - name: AutoBoxing
+  - name: EnumClass
+  - name: Annotation
+  - name: VarargParameter
+  - name: AssertStatement
+  - name: LoggingConditionDisagreesWithLogStatement
+  - name: PublicMethodWithoutLogging
+  - name: ClassWithoutLogger
+  - name: LoggerInitializedWithForeignClass
+  - name: NonStaticFinalLogger
+  - name: LogStatementGuardedByLogCondition
+  - name: ClassWithMultipleLoggers
+  - name: StringConcatenationArgumentToLogCall
+  - name: PlaceholderCountMatchesArgumentCount
+  - name: SpellCheckingInspection
+  - name: LongLine
+  - name: All
+    paths:
+      - .github
