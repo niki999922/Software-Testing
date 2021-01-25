@@ -1,3 +1,6 @@
+![server-spring-test](https://github.com/niki999922/Software-Testing/workflows/server-spring-test/badge.svg?branch=master)
+![client-tests](https://github.com/niki999922/Software-Testing/workflows/client-tests/badge.svg?branch=master)
+![client-e2e-tests](https://github.com/niki999922/Software-Testing/workflows/client-e2e-tests/badge.svg?branch=master)
 # Software-Testing
 Special Software Testing courses for ITMO 2020-2021. Here are practical tasks and solutions course of software testing by Vsevolod Brekelov especially for ITMO
 
