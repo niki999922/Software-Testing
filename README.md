@@ -1,3 +1,4 @@
+![Qodana - Code Inspection](https://github.com/niki999922/Software-Testing/workflows/Qodana%20-%20Code%20Inspection/badge.svg?branch=master)
 ![server-spring-test](https://github.com/niki999922/Software-Testing/workflows/server-spring-test/badge.svg?branch=master)
 ![client-tests](https://github.com/niki999922/Software-Testing/workflows/client-tests/badge.svg?branch=master)
 ![client-e2e-tests](https://github.com/niki999922/Software-Testing/workflows/client-e2e-tests/badge.svg?branch=master)
