@@ -1,4 +1,4 @@
-name: server-java-test
+name: server-spring-test
 
 on:
   push:
