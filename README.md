@@ -8,3 +8,5 @@ Repository with description course: https://volekerb.github.io/testing-lectures/
 
 ## Comparing Jest and Mocha
 [Link on page](https://niki999922.github.io/index.html)
+
+[Workshop](https://gitlab.com/users/niki999922/projects)
